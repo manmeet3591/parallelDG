@@ -1,3 +1,19 @@
+# Testing
+
+$ sudo docker pull onceltuca/paralleldg
+
+$ sudo docker run -it -p 8891:8891 onceltuca/paralleldg:latest
+
+$ mkdir /root/.jupyter
+
+$ jupyter notebook password
+
+$ jupyter notebook --ip=0.0.0.0 --port=8891 --allow-root &
+
+Run the notebook example_structure_learning.ipynb
+
+Success!
+
 ![GitHub](https://img.shields.io/github/license/melmasri/parallelDG)
 ![PyPI](https://img.shields.io/pypi/v/trilearn)
 ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/pypi/trilearn)
